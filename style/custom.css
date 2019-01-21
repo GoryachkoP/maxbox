@@ -8,6 +8,10 @@ body {
 	background: url(../images/backgr.jpg) no-repeat center center;
 	background-size: cover;
 }
+.border-line {
+	border-bottom: 3px solid #009ce0;
+}
+
 /*header {
 	background-color: #071726;
 	height: 87px;
@@ -87,7 +91,7 @@ body {
 	border-radius: 100px;
 	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
 }*/
-.main {
+/*.main {
 	display: flex;
 	flex-direction: row;
 	
@@ -138,7 +142,7 @@ body {
 .second-menu-top a, .second-menu-bottom  a{
 	color: #fff;
 	text-decoration: none;
-}
+}*/
 /*footer*/
 
 .footer {
