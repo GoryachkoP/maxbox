@@ -198,6 +198,11 @@ header .navbar .nav-link:focus:after {
 	width: 80%;
 }
 
+.items-content a:hover {
+	text-decoration: none;
+}
+
+
 .item {
 	background: rgb(13, 21, 39, .55);
 	border-radius: 10px;
@@ -211,6 +216,7 @@ header .navbar .nav-link:focus:after {
 }
 
 .item button {
+	cursor: pointer;
 	box-shadow: 0 0 15px 6px rgba(255, 255, 255, .15), inset 0 0 80px 30px rgba(255, 255, 255, .15);
 	font-weight: 700;
 	color: #0d0f1f!important;
@@ -218,9 +224,44 @@ header .navbar .nav-link:focus:after {
 	padding: 5px 0;
 	border-radius: 100px;
 	border: none;
-	width: 50%;
-	box-shadow: 
+	width: 50%; 
 }
+/*Super anim*/
+
+.open-overlay {
+	position: absolute;
+	z-index: 9999;
+	 top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/boxes/open-box.png) 50% 20% no-repeat rgba(93,87,37, .95);
+    border-radius: 10px;
+    border: 3px solid #fdde16;
+    display:none;
+   	transition: background .5s ease-out; 
+}
+.open-overlay-wrapper {
+	
+}
+.open-overlay-wrapper span{
+	position: absolute;
+	top:150px;
+	left:90px;
+
+}
+.open-overlay-wrapper button{
+	position: absolute;
+	top:200px;
+	left: 50px;
+	width: 150px;
+}
+
+.item:hover .open-overlay {
+	display: block;
+}
+
+/*end anim*/
 
 .item-img-align {
 	top: 0;
