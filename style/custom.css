@@ -9,7 +9,7 @@ body {
 	background-size: cover;
 }
 .border-line {
-	border-bottom: 3px solid #009ce0;
+	
 }
 header {
 	background-color: #071726;
@@ -169,7 +169,12 @@ header .navbar .nav-link:focus:after {
 	text-align: center;
 }
 /*main content items*/
-
+.top-content-menu {
+	height: 180px;
+	border-bottom: 3px solid #009ce0;
+	margin-left: -15px; 
+	margin-right: -15px;
+}
 .items-content {
 	width: 80%;
 }
