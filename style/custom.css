@@ -8,7 +8,7 @@ body {
 	background: url(../images/backgr.jpg) no-repeat center center;
 	background-size: cover;
 }
-header {
+/*header {
 	background-color: #071726;
 	height: 87px;
 	width: 100%;
@@ -86,7 +86,7 @@ header {
 	border: none;
 	border-radius: 100px;
 	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
-}
+}*/
 .main {
 	display: flex;
 	flex-direction: row;
@@ -139,3 +139,22 @@ header {
 	color: #fff;
 	text-decoration: none;
 }
+/*footer*/
+
+.footer {
+	height: 310px;
+	background-color: #0e1022;
+	color: #fff;
+}
+/*
+.footer-menu{
+	color:#fff;
+}
+
+.footer-menu ul{
+	list-style: none;
+}
+
+.footer-menu li{
+	text-decoration: none;
+}*/
