@@ -8,13 +8,26 @@ body {
 	background: url(../images/backgr.jpg) no-repeat center center;
 	background-size: cover;
 }
-/*header {
+header {
 	background-color: #071726;
-	height: 87px;
-	width: 100%;
-	text-align: center;
 }
-.header {
+header button.close {
+	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
+	font-size: 40px;
+	opacity: 1;
+	height: 60px;
+	width: 60px;
+}
+header .sing-up {
+	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
+	border-radius: 20px;
+	box-shadow: 0 0 50px rgba(255, 255, 255, .5);
+}
+header .sing-up__text {
+	border-radius: 20px;
+	box-shadow: 0 0 30px 20px rgba(255, 255, 255, .2), inset 0 0 80px 30px rgba(255, 255, 255, .2);
+}
+/*.header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
