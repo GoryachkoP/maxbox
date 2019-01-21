@@ -37,6 +37,7 @@ header .create-box {
 header .create-box:hover {
 	color: #de0336;
 }
+
 header .create-box:after {
     background-color: #ffeb3b;
     display: block;
@@ -49,6 +50,7 @@ header .create-box:after {
     transform:translateX(-50%);
     margin-top: 15px;
 }
+
 header .create-box:hover:after,
 header .create-box:focus:after {
     width: 100%;
@@ -57,14 +59,17 @@ header .create-box:focus:after {
 .live-wins {
 	text-align: center;
 }
+
 header .navbar .nav-link {
 	color: #fff;
 	padding-top: 15px;
 	padding-bottom: 0;
 }
+
 header .navbar .nav-link:hover {
 	color: #de0336;
 }
+
 header .navbar .nav-link:after {
 	display: block;
     content: "";
@@ -74,10 +79,12 @@ header .navbar .nav-link:after {
     transition: width .3s ease-in-out;
     margin-top: 10px;
 }
+
 header .navbar .nav-link:hover:after,
 header .navbar .nav-link:focus:after {
     width: 100%;
 }
+
 .header {
 	display: flex;
 	flex-direction: row;
@@ -86,10 +93,12 @@ header .navbar .nav-link:focus:after {
 	height: 100%;
 	z-index: 100;
 }
+
 .menu {
 	width: 45%;
 	margin-left: -100px;
 }
+
 .menu ul{
 	display: flex;
 	justify-content: space-around;
@@ -100,6 +109,7 @@ header .navbar .nav-link:focus:after {
 	padding-top: 35px;
 	text-transform: uppercase;
 }
+
 .menu li:hover {
 	border-bottom: 5px solid red;
 	cursor: pointer;
@@ -110,6 +120,7 @@ header .navbar .nav-link:focus:after {
 .menu li img{
 	padding-right: 10px;
 }
+
 .menu-link {
 	color: #fff;
 	text-decoration: none;
@@ -132,6 +143,7 @@ header .navbar .nav-link:focus:after {
 	width: 85px;
 	height: 85px;
 }
+
 .rarity-border-wrapper {
 	padding: 3px;
 	border-radius: 50%;
@@ -142,9 +154,11 @@ header .navbar .nav-link:focus:after {
 .rarity-border-wrapper-rare{
 	background: linear-gradient(to bottom, #00ffff, #0000ff);
 }
+
 .rarity-border-wrapper-legendary{
 	background: linear-gradient(to bottom, #fe4b30, #fd1b4e);
 }
+
 .rarity-border-wrapper-artifact{
 	background: linear-gradient(to bottom, #0fd850, #f9f047);
 }
@@ -156,18 +170,22 @@ header .navbar .nav-link:focus:after {
 	height: 100%;
 	width: 100%;
 }
+
 .rarity img {
 	
 }
+
 .live-wins-border-img {
 	padding: 20px;
 	height: 100%;
 	width: 100%;
 	
 }
+
 .center-img {
 	text-align: center;
 }
+
 /*main content items*/
 .top-content-menu {
 	height: 180px;
@@ -175,19 +193,23 @@ header .navbar .nav-link:focus:after {
 	margin-left: -15px; 
 	margin-right: -15px;
 }
+
 .items-content {
 	width: 80%;
 }
+
 .item {
 	background: rgb(13, 21, 39, .55);
 	border-radius: 10px;
 	height: 350px;
 	width: 250px;
 }
+
 .item span {
 	font-size: 1rem;	
 	font-weight: 500;
 }
+
 .item button {
 	box-shadow: 0 0 15px 6px rgba(255, 255, 255, .15), inset 0 0 80px 30px rgba(255, 255, 255, .15);
 	font-weight: 700;
@@ -199,21 +221,34 @@ header .navbar .nav-link:focus:after {
 	width: 50%;
 	box-shadow: 
 }
+
 .item-img-align {
 	top: 0;
 	right: 0;
 }
+
 .card {
 	background-color: rgba(0, 0, 0, .55);
 }
+
 .card h5 {
 	font-size: 16px
 }
+
 .card p {
 	font-size: 14px
 }
+
 .card img {
 	width: 115px;
+}
+
+.about-features {
+	margin-top: 150px;
+}
+
+.about-features-sec-block {
+	margin-bottom: 200px;
 }
 
 .footer {
