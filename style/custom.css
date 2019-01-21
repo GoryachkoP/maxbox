@@ -169,7 +169,7 @@ header .navbar .nav-link:focus:after {
 	text-align: center;
 }
 .card {
-	background-color: #0d0f5b;
+	background-color: rgba(0, 0, 0, .55);
 }
 .card h5 {
 	font-size: 16px
