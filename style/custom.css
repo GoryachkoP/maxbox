@@ -168,6 +168,18 @@ header .navbar .nav-link:focus:after {
 .center-img {
 	text-align: center;
 }
+.card {
+	background-color: #0d0f5b;
+}
+.card h5 {
+	font-size: 16px
+}
+.card p {
+	font-size: 14px
+}
+.card img {
+	width: 115px;
+}
 
 .footer {
 	background-color: #0e1022;
