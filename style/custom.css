@@ -168,6 +168,36 @@ header .navbar .nav-link:focus:after {
 .center-img {
 	text-align: center;
 }
+/*main content items*/
+
+.items-content {
+	width: 80%;
+}
+.item {
+	background: rgb(13, 21, 39, .55);
+	border-radius: 10px;
+	height: 350px;
+	width: 250px;
+}
+.item span {
+	font-size: 1rem;	
+	font-weight: 500;
+}
+.item button {
+	box-shadow: 0 0 15px 6px rgba(255, 255, 255, .15), inset 0 0 80px 30px rgba(255, 255, 255, .15);
+	font-weight: 700;
+	color: #0d0f1f!important;
+	background: #fff;
+	padding: 5px 0;
+	border-radius: 100px;
+	border: none;
+	width: 50%;
+	box-shadow: 
+}
+.item-img-align {
+	top: 0;
+	right: 0;
+}
 
 .footer {
 	background-color: #0e1022;
