@@ -198,6 +198,18 @@ header .navbar .nav-link:focus:after {
 	top: 0;
 	right: 0;
 }
+.card {
+	background-color: rgba(0, 0, 0, .55);
+}
+.card h5 {
+	font-size: 16px
+}
+.card p {
+	font-size: 14px
+}
+.card img {
+	width: 115px;
+}
 
 .footer {
 	background-color: #0e1022;
