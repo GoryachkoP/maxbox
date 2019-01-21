@@ -18,8 +18,8 @@ header button.close {
 	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
 	font-size: 40px;
 	opacity: 1;
-	height: 60px;
-	width: 60px;
+	height: 65px;
+	width: 65px;
 }
 header .sing-up {
 	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
@@ -47,10 +47,31 @@ header .create-box:after {
     position:absolute;
     transition: width .3s ease-in-out;
     transform:translateX(-50%);
-    margin-top: 10px;
+    margin-top: 15px;
 }
 header .create-box:hover:after,
 header .create-box:focus:after {
+    width: 100%;
+}
+header .navbar .nav-link {
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 0;
+}
+header .navbar .nav-link:hover {
+	color: #de0336;
+}
+header .navbar .nav-link:after {
+	display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #de0336;
+    transition: width .3s ease-in-out;
+    margin-top: 10px;
+}
+header .navbar .nav-link:hover:after,
+header .navbar .nav-link:focus:after {
     width: 100%;
 }
 /*.header {
