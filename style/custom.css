@@ -10,10 +10,10 @@ body {
 }
 .top-second-menu {
 	margin-top: 15px;
-	height: 85px;
+	/*height: 85px;*/
 }
 .border-line {
-	height: 80px;
+	/*height: 80px;*/
 	border-bottom: 3px solid #009ce0;
 }
 header {
