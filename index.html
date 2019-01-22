@@ -9,17 +9,18 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<!-- <script src="action/action.js"></script> -->
 </head>
 <body>
 	<header>
 		<div class="container-fluid ">
-			<div class="row align-items-center">
-				<!-- <button type="button" class="close" aria-label="Close">
+			<div class="row align-items-center position-relative">
+				<button type="button" class="close row-close-btn" aria-label="Close">
 					<span class="text-white" aria-hidden="true">&times;</span>
-				</button> -->
+				</button>
 				<div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
 					<nav class="navbar navbar-expand-lg navbar-dark">
-						<a class="navbar-brand mr-5" href="#"><img src="images/logo.png" alt="Logo"></a>
+						<a class="navbar-brand ml-5 mr-3" href="#"><img src="images/logo.png" alt="Logo"></a>
 						<button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#topMenu" aria-controls="topMenu" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
@@ -30,7 +31,7 @@
 									<a class="nav-link text-uppercase" href="" class="menu-link"><img class="mr-2" src="images/1box.png" alt="">boxes</a>
 								</li>
 								<li class="nav-item mr-3">
-									<a class="nav-link text-uppercase" href="" class="menu-link"><img class="mr-2" src="images/comments.png" alt="">faq</a>
+									<a class="nav-link text-uppercase" href="" class="menu-link"><img class="mr-2" src="images/2-coments.png" alt="">faq</a>
 								</li>
 								<li class="nav-item mr-3">
 									<a class="nav-link text-uppercase" href="" class="menu-link"><img class="mr-2" src="images/3-crown.png" alt="">top</a>
@@ -67,47 +68,73 @@
 					</div>
 
 					<div class="live-wins text-white mt-4 d-flex flex-column a text-white-50">
-						<div class="live-wins-item-align mb-4">
+						<div class="live-wins-item-align position-relative mb-5 ">
 							<div class="rarity-border-wrapper rarity-border-wrapper-rare mb-2">
-								<div class="rarity">
+								<div class="live-wins-item rarity position-relative" style="">
 									<img class="live-wins-border-img" src="images/item-1.png" alt="">
+									<span class="item-name">X-mas present</span>
+									<div class="owner-item-user">
+										<img src="images/avatar.jpg" alt="" class="owner-item-user-img">
+										<span class="pt-2 user-name">samFree22</span>
+									</div>
 								</div>
+								
 							</div>
-							<span class="">X-mas present</span>
-						</div>
-						<div class="live-wins-item-align mb-4">
-							<div class="rarity-border-wrapper rarity-border-wrapper-rare mb-2">
-								<div class="rarity">
-									<img class="live-wins-border-img" src="images/item-2.png" alt="">
-								</div>
-							</div>
-							<span class="">X-mas present</span>
-						</div>
-						<div class="live-wins-item-align mb-4">
-							<div class="rarity-border-wrapper rarity-border-wrapper-legendary mb-2">
-								<div class="rarity">
-									<img class="live-wins-border-img" src="images/item-3.png" alt="">
-								</div>
-							</div>
-							<span class="">X-mas present</span>
-						</div>
-						<div class="live-wins-item-align mb-4">
-							<div class="rarity-border-wrapper rarity-border-wrapper-legendary mb-2">
-								<div class="rarity">
-									<img class="live-wins-border-img" src="images/item-4.png" alt="">
-								</div>
-							</div>
-							<span class="">X-mas present</span>
-						</div>
-						<div class="live-wins-item-align mb-4">
-							<div class="rarity-border-wrapper rarity-border-wrapper-artifact mb-2">
-								<div class="rarity">
-									<img class="live-wins-border-img" src="images/item-5.png" alt="">
-								</div>
-							</div>
-							<span class="">X-mas present</span>
 						</div>
 
+						<div class="live-wins-item-align position-relative mb-5 ">
+							<div class="rarity-border-wrapper rarity-border-wrapper-rare mb-2">
+								<div class="live-wins-item rarity position-relative" style="">
+									<img class="live-wins-border-img" src="images/item-2.png" alt="">
+									<span class="item-name">X-mas present</span>
+									<div class="owner-item-user">
+										<img src="images/avatar.jpg" alt="" class="owner-item-user-img">
+										<span class="pt-2 user-name">samFree22</span>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="live-wins-item-align position-relative mb-5 ">
+							<div class="rarity-border-wrapper rarity-border-wrapper-legendary mb-2">
+								<div class="live-wins-item rarity position-relative" style="">
+									<img class="live-wins-border-img" src="images/item-3.png" alt="">
+									<span class="item-name">X-mas present</span>
+									<div class="owner-item-user">
+										<img src="images/avatar.jpg" alt="" class="owner-item-user-img">
+										<span class="pt-2 user-name">samFree22</span>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="live-wins-item-align position-relative mb-5 ">
+							<div class="rarity-border-wrapper rarity-border-wrapper-legendary mb-2">
+								<div class="live-wins-item rarity position-relative" style="">
+									<img class="live-wins-border-img" src="images/item-4.png" alt="">
+									<span class="item-name">X-mas present</span>
+									<div class="owner-item-user">
+										<img src="images/avatar.jpg" alt="" class="owner-item-user-img">
+										<span class="pt-2 user-name">samFree22</span>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="live-wins-item-align position-relative mb-5 ">
+							<div class="rarity-border-wrapper rarity-border-wrapper-artifact mb-2">
+								<div class="live-wins-item rarity position-relative" style="">
+									<img class="live-wins-border-img" src="images/item-5.png" alt="">
+									<span class="item-name">X-mas present</span>
+									<div class="owner-item-user">
+										<img src="images/avatar.jpg" alt="" class="owner-item-user-img">
+										<span class="pt-2 user-name">samFree22</span>
+									</div>
+								</div>
+								
+							</div>
+						</div>
 					</div>
 				</div>
 				
@@ -148,12 +175,13 @@
 								<div class="item m-2 mt-4 py-3 d-flex flex-column justify-content-between align-items-center position-relative">
 									<img class="position-absolute item-img-align" src="images/boxes/sale-item.png" alt="">
 									<img src="images/boxes/box-items.png" alt="">
+
 									<span>Popular Lite</span>
 									<button class="buy-item">99$</button>
 									<span class="open-overlay">
-										<span class="open-overlay-wrapper">
+										<span class="open-overlay-wrapper ">
 											<span>Open for</span>
-											<button>99$</button>
+											<button class="open-overlay-btn">99$</button>
 										</span>
 									</span>
 										
