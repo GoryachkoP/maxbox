@@ -12,17 +12,9 @@ body {
 
 .top-second-menu {
 	margin-top: 15px;
-<<<<<<< HEAD
-	/*height: 85px;*/
-=======
->>>>>>> 17bc3c09efbc41cc09227304b8e9f8d4c6b1b63a
 }
 
 .border-line {
-<<<<<<< HEAD
-	/*height: 80px;*/
-=======
->>>>>>> 17bc3c09efbc41cc09227304b8e9f8d4c6b1b63a
 	border-bottom: 3px solid #009ce0;
 }
 
@@ -46,10 +38,14 @@ header button.close {
 header .sing-up {
 	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
 	border-radius: 20px;
-	box-shadow: 0 0 50px rgba(255, 255, 255, .5);
 }
 header .sing-up__text {
 	border-radius: 20px;
+}
+header .sing-up:hover {
+	box-shadow: 0 0 50px rgba(255, 255, 255, .5);
+}
+header .sing-up:hover .sing-up__text {
 	box-shadow: 0 0 30px 20px rgba(255, 255, 255, .2), inset 0 0 80px 30px rgba(255, 255, 255, .2);
 }
 header .create-box, .box-categories .nav-link {
