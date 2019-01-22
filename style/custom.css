@@ -1,6 +1,7 @@
 *, *:before, *:after {
 	box-sizing: border-box;
 }
+
 body {
 	margin: 0;
 	font-size: 14px;
@@ -8,14 +9,23 @@ body {
 	background: url(../images/backgr.jpg) no-repeat center center;
 	background-size: cover;
 }
+
 .top-second-menu {
 	margin-top: 15px;
+<<<<<<< HEAD
 	/*height: 85px;*/
+=======
+>>>>>>> 17bc3c09efbc41cc09227304b8e9f8d4c6b1b63a
 }
+
 .border-line {
+<<<<<<< HEAD
 	/*height: 80px;*/
+=======
+>>>>>>> 17bc3c09efbc41cc09227304b8e9f8d4c6b1b63a
 	border-bottom: 3px solid #009ce0;
 }
+
 header {
 	background-color: #071726;
 }
@@ -23,8 +33,15 @@ header button.close {
 	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
 	font-size: 40px;
 	opacity: 1;
-	height: 65px;
+	
+}
+.row-close-btn {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
 	width: 65px;
+	/*display: none;*/
 }
 header .sing-up {
 	background: linear-gradient(135deg, rgba(255,0,58,1) 1%,rgba(255,0,0,1) 100%);
@@ -132,6 +149,7 @@ header .navbar .nav-link:focus:after,
 	text-decoration: none;
 }
 
+/*section live wins*/
 .live-wins-item-align {
 	display: flex;
 	flex-direction: column;
@@ -148,7 +166,7 @@ header .navbar .nav-link:focus:after,
 	border-radius: 50%;
 	width: 85px;
 	height: 85px;
-}
+}	
 
 .rarity-border-wrapper {
 	padding: 3px;
@@ -177,19 +195,42 @@ header .navbar .nav-link:focus:after,
 	width: 100%;
 }
 
-.rarity img {
-	
+.owner-item-user {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.owner-item-user-img {
+	border-radius: 100px;
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+
+}
+.item-name {
+	display: block;
+	padding: 10px 0;
+}
+.user-name {
+	display: block;
+	padding: 10px 0;
+	color: #fff;
+	font-weight: 700;
 }
 
-.live-wins-border-img {
+.live-wins-item:hover .item-name {
+	display: none;
+}
+.live-wins-item:hover .owner-item-user {
+	cursor: pointer;
+	display: block;
+}
+
+.live-wins-border-img{
 	padding: 20px;
 	height: 100%;
 	width: 100%;
-	
-}
-
-.center-img {
-	text-align: center;
 }
 
 /*main content items*/
@@ -222,7 +263,7 @@ header .navbar .nav-link:focus:after,
 }
 
 .item button {
-	cursor: pointer;
+	cursor: url(../images/boxes/hand-pointer1.png), auto;
 	box-shadow: 0 0 15px 6px rgba(255, 255, 255, .15), inset 0 0 80px 30px rgba(255, 255, 255, .15);
 	font-weight: 700;
 	color: #0d0f1f!important;
@@ -262,7 +303,9 @@ header .navbar .nav-link:focus:after,
 	left: 50px;
 	width: 150px;
 }
-
+.active-item {
+	display: block;
+}
 .item:hover .open-overlay {
 	display: block;
 }
@@ -270,6 +313,7 @@ header .navbar .nav-link:focus:after,
 /*end anim*/
 
 .item-img-align {
+	border-radius:0 10px 0 0; 
 	top: 0;
 	right: 0;
 }
